@@ -37,6 +37,8 @@ main {
 	transform: translate(-50%, -50%);
 	overflow: hidden;
 	box-shadow: 0px 0px 10px #00000046;
+	transition: width .5s, height .5s;
+	transition-timing-function: ease;
 }
 
 #login > #imagem {
