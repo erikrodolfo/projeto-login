@@ -2,7 +2,7 @@
 
 
 /* For Tablet */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 	body {
 		background-image: linear-gradient(to top, black, #2e2e2e);
 	}
@@ -23,7 +23,7 @@
 	}
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 	body {
 		background-image: linear-gradient(to top, black, #2e2e2e);
 	}
@@ -33,13 +33,22 @@
 	}
 	
 	#login > #imagem {
-		float: left;
+		float: right;
 		width: 50%;
 		height: 100%;
 	}
 	
 	#login > #formulario {
-		float: right;
+		float: left;
 		width: 50%;
 	} 
+	
+	
+#formulario > h1 {
+	font-size: 2em;
+}
+
+#formulario > p {
+	font-size: 1.2em;
+}
 }
